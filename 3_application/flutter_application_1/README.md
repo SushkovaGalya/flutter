@@ -1,16 +1,18 @@
-# flutter_application_1
+# flutter_application_3
 
-A new Flutter project.
+Лабораторная работа №3 "Взаимодействие с пользователем и навигация" Вариант 2 Сушкова Галина,ИВТ-22
 
-## Getting Started
+Задание: Реализовать калькулятор квадратов суммы. На первом экране должны располагаться 2 числовых поля ввода (число a и число b), а также чек-бокс на согласие обработки данных. Реализовать валидацию полей и чек-бокса. Передать данные с первого экрана на второй экран произвести расчеты и отобразить.
 
-This project is a starting point for a Flutter application.
+inputFormatters — это свойство виджета TextField или TextFormField, которое позволяет управлять вводом данных и ограничивать их формат.
 
-A few resources to get you started if this is your first Flutter project:
+Применение inputFormatters:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Ограничение типов символов (например, только цифры, буквы, специальные символы).
+Форматирование текста (например, маска ввода номера телефона или даты).
+Проверка валидности ввода в реальном времени.
+Основные классы для inputFormatters
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+FilteringTextInputFormatter – фильтрует вводимые символы по заданному шаблону.
+LengthLimitingTextInputFormatter – ограничивает длину текста.
+TextInputFormatter – базовый класс для создания кастомных форматов.
