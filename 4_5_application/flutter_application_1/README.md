@@ -1,16 +1,3 @@
-# flutter_application_1
+# flutter_application_4-5
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Управление состояниями с помощью кубита. Выполнила Сушкова Галина, ИВТ-22. За основу взята предыдущая 4 лабораторная работа, в которой был создан калькулятор суммы квадратов с использованием кубита, позволяющего менять состояние без изменения экрана. В этой лабораторной работе я использовал SharedPreferences для сохранения результатов выполнения программы. SharedPreferences — постоянное хранилище, используемое приложениями для хранения простых данных. Это хранилище является относительно постоянным: пользователь может зайти в настройки приложения и очистить данные приложения, тем самым удалив все данные из хранилища. Принимает данные в формате «ключ — значение». Поддерживаемые типы данных: int, double, bool, String и List.
