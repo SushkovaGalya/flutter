@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
     return BlocProvider(
       create: (_) => NasaCubit(),
       child: MaterialApp(
-        title: 'Лабораторная работа 6 Выполнил Богушевич ВМК-22',
+        title: 'Лабораторная работа 6 Выполнила Сушкова Галина ИВТ-22',
         theme: ThemeData(
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         ),
