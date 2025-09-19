@@ -1,16 +1,7 @@
-# flutter_application_1
+# flutter_application_2
 
-A new Flutter project.
+Лабораторная работа №2 (Компоновка виджетов) Выполнила Сушкова Галина,ИВТ-22
 
-## Getting Started
+Нужно выполнить индивидуальное задание: Задание 2 варианта --- Добавить в тело экрана виджет Column. В Column добавить текстовые виджеты - сведения о себе (ФИО, год рождения, группа и т.д.). Каждому текстовому виджету задать отступ и добавить стили TextStyle.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Текстовый виджет задается с помощью Text у него есть различне параметры для его изменения Расположение будет сделано с помощью Column который располагает виджеты в колонну Для отступов я использовал виджет Padding - это виджет, который добавляет отступы (поля) вокруг своего дочернего элемента. Он используется, чтобы задать расстояние между виджетами или их границами.
